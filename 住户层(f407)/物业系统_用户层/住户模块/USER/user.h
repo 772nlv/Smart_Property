@@ -1,0 +1,30 @@
+//系统文件区
+#include "sys.h"
+#include "delay.h"
+#include "usart.h"
+//硬件头文件区
+#include "led.h"
+#include "beep.h"
+#include "key.h"
+#include "interrupt.h"
+#include "dht11.h"
+#include "pwm_fan.h"
+#include "iic.h"
+#include "oled.h"
+#include "light.h"
+#include "pwm_motor.h"
+#include "esp8266_wifi.h"
+#include "mennu.h"
+#include "pwm.h"
+#include "rtc.h"
+#include "passwd_door.h"
+//freertos 头文件区
+#include "FreeRTOS.h"
+#include "event_groups.h"
+#include "task.h"
+//c文件区
+#include "stdio.h"
+#include "string.h"
+#include "stdlib.h"
+//功能函数区
+#include "fun.h"
